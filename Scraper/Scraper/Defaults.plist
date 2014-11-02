@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Remember</key>
+	<false/>
+	<key>Append</key>
+	<false/>
+	<key>ScrapeIndex</key>
+	<integer>0</integer>
+	<key>Delay</key>
+	<integer>0</integer>
+	<key>NumFetchers</key>
+	<integer>1</integer>
+	<key>InputPath</key>
+	<string></string>
+	<key>OutputPath</key>
+	<string></string>
+</dict>
+</plist>

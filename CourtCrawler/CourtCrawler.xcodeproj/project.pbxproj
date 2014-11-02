@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663D9EFE18F3154200C49C35 /* MFDateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 663D9EFD18F3154200C49C35 /* MFDateRange.m */; };
+		663F3B4718EDDDA40052EC2A /* MFLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663F3B4618EDDDA40052EC2A /* MFLib.framework */; };
+		663F3B4818EDDDD70052EC2A /* MFLib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 663F3B4618EDDDA40052EC2A /* MFLib.framework */; };
+		663F3B4B18EDE3610052EC2A /* MDCourtFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F3B4A18EDE3610052EC2A /* MDCourtFetcher.m */; };
+		668D51AA18EDE5EF0067E932 /* MFDoctorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D51A918EDE5EF0067E932 /* MFDoctorList.m */; };
+		66B2ADD818ECAA820056491E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2ADD718ECAA820056491E /* Cocoa.framework */; };
+		66B2ADE218ECAA820056491E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B2ADE018ECAA820056491E /* InfoPlist.strings */; };
+		66B2ADE418ECAA820056491E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2ADE318ECAA820056491E /* main.m */; };
+		66B2ADE818ECAA820056491E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66B2ADE618ECAA820056491E /* Credits.rtf */; };
+		66B2ADEB18ECAA820056491E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2ADEA18ECAA820056491E /* AppDelegate.m */; };
+		66B2ADEE18ECAA820056491E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B2ADEC18ECAA820056491E /* MainMenu.xib */; };
+		66B2ADF018ECAA820056491E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B2ADEF18ECAA820056491E /* Images.xcassets */; };
+		66B2ADF718ECAA820056491E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2ADF618ECAA820056491E /* XCTest.framework */; };
+		66B2ADF818ECAA820056491E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2ADD718ECAA820056491E /* Cocoa.framework */; };
+		66B2AE0018ECAA820056491E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B2ADFE18ECAA820056491E /* InfoPlist.strings */; };
+		66B2AE0218ECAA820056491E /* CourtCrawlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2AE0118ECAA820056491E /* CourtCrawlerTests.m */; };
+		7991461618ECE83900F3DC71 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7991461518ECE83900F3DC71 /* Defaults.plist */; };
+		7991461918ECE95200F3DC71 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991461818ECE95200F3DC71 /* MFAppDelegate.m */; };
+		7991461D18ECEC1300F3DC71 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991461A18ECEC1300F3DC71 /* WebKit.framework */; };
+		7991461E18ECEC1300F3DC71 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991461B18ECEC1300F3DC71 /* libxml2.dylib */; };
+		7991461F18ECEC1300F3DC71 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991461C18ECEC1300F3DC71 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B2ADF918ECAA820056491E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B2ADCC18ECAA820056491E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B2ADD318ECAA820056491E;
+			remoteInfo = CourtCrawler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		663F3B4418EDDC8E0052EC2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				663F3B4818EDDDD70052EC2A /* MFLib.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		663D9EFC18F3154200C49C35 /* MFDateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDateRange.h; sourceTree = "<group>"; };
+		663D9EFD18F3154200C49C35 /* MFDateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDateRange.m; sourceTree = "<group>"; };
+		663F3B4618EDDDA40052EC2A /* MFLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MFLib.framework; path = ../MFLib/Build/Products/Debug/MFLib.framework; sourceTree = "<group>"; };
+		663F3B4918EDE3610052EC2A /* MDCourtFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCourtFetcher.h; sourceTree = "<group>"; };
+		663F3B4A18EDE3610052EC2A /* MDCourtFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCourtFetcher.m; sourceTree = "<group>"; };
+		668D51A818EDE5EF0067E932 /* MFDoctorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFDoctorList.h; path = CourtCrawler/MFDoctorList.h; sourceTree = "<group>"; };
+		668D51A918EDE5EF0067E932 /* MFDoctorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFDoctorList.m; path = CourtCrawler/MFDoctorList.m; sourceTree = "<group>"; };
+		66B2ADD418ECAA820056491E /* CourtCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourtCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B2ADD718ECAA820056491E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66B2ADDA18ECAA820056491E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66B2ADDB18ECAA820056491E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66B2ADDC18ECAA820056491E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66B2ADDF18ECAA820056491E /* CourtCrawler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CourtCrawler-Info.plist"; sourceTree = "<group>"; };
+		66B2ADE118ECAA820056491E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B2ADE318ECAA820056491E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66B2ADE518ECAA820056491E /* CourtCrawler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CourtCrawler-Prefix.pch"; sourceTree = "<group>"; };
+		66B2ADE718ECAA820056491E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66B2ADE918ECAA820056491E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66B2ADEA18ECAA820056491E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66B2ADED18ECAA820056491E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66B2ADEF18ECAA820056491E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66B2ADF518ECAA820056491E /* CourtCrawlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourtCrawlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B2ADF618ECAA820056491E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66B2ADFD18ECAA820056491E /* CourtCrawlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CourtCrawlerTests-Info.plist"; sourceTree = "<group>"; };
+		66B2ADFF18ECAA820056491E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B2AE0118ECAA820056491E /* CourtCrawlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourtCrawlerTests.m; sourceTree = "<group>"; };
+		7991461518ECE83900F3DC71 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		7991461718ECE95200F3DC71 /* MFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		7991461818ECE95200F3DC71 /* MFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		7991461A18ECEC1300F3DC71 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7991461B18ECEC1300F3DC71 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7991461C18ECEC1300F3DC71 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B2ADD118ECAA820056491E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F3B4718EDDDA40052EC2A /* MFLib.framework in Frameworks */,
+				7991461D18ECEC1300F3DC71 /* WebKit.framework in Frameworks */,
+				66B2ADD818ECAA820056491E /* Cocoa.framework in Frameworks */,
+				7991461F18ECEC1300F3DC71 /* libsqlite3.dylib in Frameworks */,
+				7991461E18ECEC1300F3DC71 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B2ADF218ECAA820056491E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2ADF818ECAA820056491E /* Cocoa.framework in Frameworks */,
+				66B2ADF718ECAA820056491E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663F3B4C18EDE37A0052EC2A /* MD Court */ = {
+			isa = PBXGroup;
+			children = (
+				663F3B4918EDE3610052EC2A /* MDCourtFetcher.h */,
+				663F3B4A18EDE3610052EC2A /* MDCourtFetcher.m */,
+			);
+			name = "MD Court";
+			sourceTree = "<group>";
+		};
+		66B2ADCB18ECAA820056491E = {
+			isa = PBXGroup;
+			children = (
+				668D51A818EDE5EF0067E932 /* MFDoctorList.h */,
+				668D51A918EDE5EF0067E932 /* MFDoctorList.m */,
+				66B2ADDD18ECAA820056491E /* CourtCrawler */,
+				66B2ADFB18ECAA820056491E /* CourtCrawlerTests */,
+				66B2ADD618ECAA820056491E /* Frameworks */,
+				66B2ADD518ECAA820056491E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B2ADD518ECAA820056491E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B2ADD418ECAA820056491E /* CourtCrawler.app */,
+				66B2ADF518ECAA820056491E /* CourtCrawlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B2ADD618ECAA820056491E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663F3B4618EDDDA40052EC2A /* MFLib.framework */,
+				7991461A18ECEC1300F3DC71 /* WebKit.framework */,
+				7991461B18ECEC1300F3DC71 /* libxml2.dylib */,
+				7991461C18ECEC1300F3DC71 /* libsqlite3.dylib */,
+				66B2ADD718ECAA820056491E /* Cocoa.framework */,
+				66B2ADF618ECAA820056491E /* XCTest.framework */,
+				66B2ADD918ECAA820056491E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66B2ADD918ECAA820056491E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B2ADDA18ECAA820056491E /* AppKit.framework */,
+				66B2ADDB18ECAA820056491E /* CoreData.framework */,
+				66B2ADDC18ECAA820056491E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66B2ADDD18ECAA820056491E /* CourtCrawler */ = {
+			isa = PBXGroup;
+			children = (
+				663D9EFC18F3154200C49C35 /* MFDateRange.h */,
+				663D9EFD18F3154200C49C35 /* MFDateRange.m */,
+				663F3B4C18EDE37A0052EC2A /* MD Court */,
+				7991461718ECE95200F3DC71 /* MFAppDelegate.h */,
+				7991461818ECE95200F3DC71 /* MFAppDelegate.m */,
+				66B2ADE918ECAA820056491E /* AppDelegate.h */,
+				66B2ADEA18ECAA820056491E /* AppDelegate.m */,
+				66B2ADEC18ECAA820056491E /* MainMenu.xib */,
+				66B2ADEF18ECAA820056491E /* Images.xcassets */,
+				66B2ADDE18ECAA820056491E /* Supporting Files */,
+			);
+			path = CourtCrawler;
+			sourceTree = "<group>";
+		};
+		66B2ADDE18ECAA820056491E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7991461518ECE83900F3DC71 /* Defaults.plist */,
+				66B2ADDF18ECAA820056491E /* CourtCrawler-Info.plist */,
+				66B2ADE018ECAA820056491E /* InfoPlist.strings */,
+				66B2ADE318ECAA820056491E /* main.m */,
+				66B2ADE518ECAA820056491E /* CourtCrawler-Prefix.pch */,
+				66B2ADE618ECAA820056491E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B2ADFB18ECAA820056491E /* CourtCrawlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B2AE0118ECAA820056491E /* CourtCrawlerTests.m */,
+				66B2ADFC18ECAA820056491E /* Supporting Files */,
+			);
+			path = CourtCrawlerTests;
+			sourceTree = "<group>";
+		};
+		66B2ADFC18ECAA820056491E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B2ADFD18ECAA820056491E /* CourtCrawlerTests-Info.plist */,
+				66B2ADFE18ECAA820056491E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B2ADD318ECAA820056491E /* CourtCrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B2AE0518ECAA820056491E /* Build configuration list for PBXNativeTarget "CourtCrawler" */;
+			buildPhases = (
+				66B2ADD018ECAA820056491E /* Sources */,
+				66B2ADD118ECAA820056491E /* Frameworks */,
+				66B2ADD218ECAA820056491E /* Resources */,
+				663F3B4418EDDC8E0052EC2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CourtCrawler;
+			productName = CourtCrawler;
+			productReference = 66B2ADD418ECAA820056491E /* CourtCrawler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B2ADF418ECAA820056491E /* CourtCrawlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B2AE0818ECAA820056491E /* Build configuration list for PBXNativeTarget "CourtCrawlerTests" */;
+			buildPhases = (
+				66B2ADF118ECAA820056491E /* Sources */,
+				66B2ADF218ECAA820056491E /* Frameworks */,
+				66B2ADF318ECAA820056491E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B2ADFA18ECAA820056491E /* PBXTargetDependency */,
+			);
+			name = CourtCrawlerTests;
+			productName = CourtCrawlerTests;
+			productReference = 66B2ADF518ECAA820056491E /* CourtCrawlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B2ADCC18ECAA820056491E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MedFax;
+				TargetAttributes = {
+					66B2ADF418ECAA820056491E = {
+						TestTargetID = 66B2ADD318ECAA820056491E;
+					};
+				};
+			};
+			buildConfigurationList = 66B2ADCF18ECAA820056491E /* Build configuration list for PBXProject "CourtCrawler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66B2ADCB18ECAA820056491E;
+			productRefGroup = 66B2ADD518ECAA820056491E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B2ADD318ECAA820056491E /* CourtCrawler */,
+				66B2ADF418ECAA820056491E /* CourtCrawlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B2ADD218ECAA820056491E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2ADE218ECAA820056491E /* InfoPlist.strings in Resources */,
+				66B2ADF018ECAA820056491E /* Images.xcassets in Resources */,
+				7991461618ECE83900F3DC71 /* Defaults.plist in Resources */,
+				66B2ADE818ECAA820056491E /* Credits.rtf in Resources */,
+				66B2ADEE18ECAA820056491E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B2ADF318ECAA820056491E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2AE0018ECAA820056491E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B2ADD018ECAA820056491E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2ADEB18ECAA820056491E /* AppDelegate.m in Sources */,
+				7991461918ECE95200F3DC71 /* MFAppDelegate.m in Sources */,
+				668D51AA18EDE5EF0067E932 /* MFDoctorList.m in Sources */,
+				663F3B4B18EDE3610052EC2A /* MDCourtFetcher.m in Sources */,
+				66B2ADE418ECAA820056491E /* main.m in Sources */,
+				663D9EFE18F3154200C49C35 /* MFDateRange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B2ADF118ECAA820056491E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2AE0218ECAA820056491E /* CourtCrawlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B2ADFA18ECAA820056491E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B2ADD318ECAA820056491E /* CourtCrawler */;
+			targetProxy = 66B2ADF918ECAA820056491E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B2ADE018ECAA820056491E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B2ADE118ECAA820056491E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66B2ADE618ECAA820056491E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B2ADE718ECAA820056491E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66B2ADEC18ECAA820056491E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B2ADED18ECAA820056491E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		66B2ADFE18ECAA820056491E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B2ADFF18ECAA820056491E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B2AE0318ECAA820056491E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66B2AE0418ECAA820056491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66B2AE0618ECAA820056491E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../MFLib/Build/Products/Debug,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourtCrawler/CourtCrawler-Prefix.pch";
+				INFOPLIST_FILE = "CourtCrawler/CourtCrawler-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66B2AE0718ECAA820056491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../MFLib/Build/Products/Debug,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourtCrawler/CourtCrawler-Prefix.pch";
+				INFOPLIST_FILE = "CourtCrawler/CourtCrawler-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66B2AE0918ECAA820056491E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CourtCrawler.app/Contents/MacOS/CourtCrawler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourtCrawler/CourtCrawler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CourtCrawlerTests/CourtCrawlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66B2AE0A18ECAA820056491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CourtCrawler.app/Contents/MacOS/CourtCrawler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourtCrawler/CourtCrawler-Prefix.pch";
+				INFOPLIST_FILE = "CourtCrawlerTests/CourtCrawlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B2ADCF18ECAA820056491E /* Build configuration list for PBXProject "CourtCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B2AE0318ECAA820056491E /* Debug */,
+				66B2AE0418ECAA820056491E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B2AE0518ECAA820056491E /* Build configuration list for PBXNativeTarget "CourtCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B2AE0618ECAA820056491E /* Debug */,
+				66B2AE0718ECAA820056491E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B2AE0818ECAA820056491E /* Build configuration list for PBXNativeTarget "CourtCrawlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B2AE0918ECAA820056491E /* Debug */,
+				66B2AE0A18ECAA820056491E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B2ADCC18ECAA820056491E /* Project object */;
+}

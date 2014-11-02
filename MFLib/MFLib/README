@@ -1,0 +1,22 @@
+//  MF Framework
+//  Created by finucane on 3/13/14.
+//  Copyright (c) 2014 Truth MD, Inc. All rights reserved.
+//
+
+MF Framework is a collection of classes and other stuff to use in writing mf applications on OSX or iOS.
+
+insist.h - assertion macro
+MFError - error handling and reporting for MF Framework
+
+network, web pages:
+MFNet - network stack
+MFWebPage - to deal with web pages requiring js manipulation
+
+db:
+MFDB - wrapper for qlite database
+MFDoctorLicense, MFDoctorLicenseList - Using doctor_license tables 
+
+scraping:
+MFStringCategory, MFScannerCategory - Categories for scraping
+
+MFBingGeocoder - geocoder using bing api
